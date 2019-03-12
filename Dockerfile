@@ -4,4 +4,4 @@ RUN \
   apk update && \
   apk add git python py-pip && \
   pip install awsebcli && \
-  pip install pip install awscli
+  pip install awscli
