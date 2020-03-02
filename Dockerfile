@@ -16,7 +16,5 @@ RUN ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
 # Install aws-cli
 RUN pip install awscli
 RUN rm /var/cache/apk/*
-RUN \
-  pip install awsebcli==3.10.1 && \
-  mkdir -p "${HOME}/.aws"
+RUN pip install awsebcli==3.10.1
 RUN npm install -g newman
