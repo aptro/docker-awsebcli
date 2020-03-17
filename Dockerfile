@@ -14,6 +14,4 @@ RUN apk add npm
 
 RUN pip install awsebcli==3.14.5
 
-RUN pip install awscli
-
 RUN npm install -g newman
